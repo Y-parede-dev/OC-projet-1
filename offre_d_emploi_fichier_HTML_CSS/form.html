@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style_form.css">
+</head>
+<body>
+	<header>
+		<h1 >Pour postuler</h1>
+		<p id="txt">Merci de bien vouloir remplir ce formulaire : </p>
+	</header>
+
+	
+		<form action="cible.html" method="POST">
+			<p><label>Pénom : <input type="text" name="Prénom" /></label> <label>Nom : <input type="text" name="Nom" /></label></p>
+			<p><label>Date de naissance : <input type="date" name="Prénom" /></label></p>
+			<p><label>E-Mail : <input type="email" name="E-Mail"></label><label>Téléphone : <input type="tel" name="telephone" /></label></p>
+			<p><label>Vôtre pays d'origine : </label>
+				<select>
+					<option value="france">France</option>
+					<option value="USA">Etat-Unis</option>
+					<option value="R_U">Royaume-Unis</option>
+					<option value="Russie">Russie</option>
+					<option value="italie">Italie</option>
+					<option value="Espagne">Espagne</option>
+					<option value="Canada">Canada</option>
+					<option value="Portugal">Portugal</option>
+					<option value="Pologne">Pologne</option>
+					<option value="Danemark">Danemark</option>
+					<option value="Afrique">Afrique(continent)</option>
+					<option value="Australie">Australie</option>
+				</select>
+			</p>
+			<p><label>Vôtre experience : </label>
+				<select>
+					<option value="Moins_de_3_ans ">Moins de 3 ans</option>
+					<option value="3_ans ">3 ans</option>
+					<option value="4_ans ">4 ans</option>
+					<option value="5_ans_ou_plus ">5 ans ou plus</option>
+				</select>
+			</p>
+			<p><label><input type="checkbox" name="checkbox"></p> J'accepte de recevoir toutes offres commerial de nôtre societte est de nos partenaires</label>
+
+			<p><input type="submit" /></p>
+		</form>
+
+<footer><a href="index.html"><button>Retour a la page d'acceuil</button></a></footer>
+</body>
+</html>

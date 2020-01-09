@@ -1,0 +1,81 @@
+
+body
+{
+	width:100%;
+}
+
+header
+{
+	padding-left: 5%;
+	padding-bottom: 2.5%;
+	background:url(images/internet.jpg)100%;
+	border-radius: 8px 40px 8px 40px;
+}
+h1
+{
+	color: #ffffff;
+	text-shadow: 0 1px 1px black;
+	padding-top: 3%;
+}
+
+
+#bouton1
+{
+	background-color: rgb(73,98,255);
+	color: white;
+	font-weight: bold;
+	border-radius: 12px;
+	border: rgba(73,98,255,0.5)solid;
+	margin: 0;
+	margin-bottom: -2%;
+	box-shadow: 0 8px 16px 0 grey;
+	padding: 8px 26px;
+	font-size: 1.2em;
+
+    
+}
+
+section 
+{
+	margin-top: 0.5%;
+	margin-left: 5%;
+}
+section a img
+{
+	width: 2.99%;
+
+}
+
+h3
+{
+	font-size: 1.5em;
+}
+
+.p
+{
+	margin-right: 6%;
+	font-size:1.3em;
+}
+footer
+{
+	background-color:#C0C0C0;
+
+	margin: 0%;
+	border-radius: 3px 3px 3px 3px;
+	margin-left: -0.40%;
+	margin-right: -0.40%;
+	
+}
+
+#Nom_Societer 
+{
+	font-size: 1.1em;
+	color: rgb(255,110,48);
+	text-shadow: 1px 1px black;
+
+}
+ul
+{
+	list-style-image: url(images/souris_web_tp.png);
+	font-size: 1.3em;
+}
