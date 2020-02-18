@@ -1,15 +1,11 @@
 
-@media(max-width: 1280px)
-{
-	body
-	{
+@media(max-width: 1280px) {
+	body {
 		min-width: 638px;
 		font-size: 1.2em;
 		background: url(images/fond_form.png);
 	}
-	form
-	{
-		
+	form {
 		margin-top: 0.9%;
 		margin-left: 16.99%;
 		border: 2px solid rgba(0,0,0,0.5);
@@ -19,33 +15,25 @@
 		width: 50%;
 		background-color: white;
 		box-shadow: 0 25px 30px 12px rgba(0,0,0,0.5);
-
 	}
-	input,select
-	{
+	input, select {
 		margin:2%;
 	}
-	header
-	{
+	header {
 		text-align: center;
-		
-		
 		margin-bottom: 3.99%;
 	}
-	h1
-	{
+	h1 {
 		color: white;
 		text-shadow: 2px 0 2px blue;
 	}
-	#txt
-	{
+	#txt {
 		font-size: 1.2em;
 		color: white;
 		text-shadow: 2px 0 2px blue;
 		
 	}
-	button
-	{
+	button {
 		margin-top: 5%;
 		font-size: 1em;
 		background-color: rgb(124,112,255);
@@ -53,22 +41,16 @@
 		border: 2px rgb(124,112,255) solid;
 		border-radius: 3px 3px 12px 3px;
 		box-shadow: 0 1.88px 0.99px 0.28px black;
-
 	}
 }
-@media(min-width: 1280px)
-{
-	body
-	{
+@media(min-width: 1280px) {
+	body {
 		max-width: 1600px;
-		
 		font-size: 1.2em;
 		background: url(images/fond_form.png);
 
 	}
-	form
-	{
-		
+	form {
 		margin-top: 0.9%;
 		margin-left: 28%;
 		border: 2px solid rgba(0,0,0,0.5);
@@ -80,31 +62,25 @@
 		box-shadow: 0 25px 30px 12px rgba(0,0,0,0.5);
 
 	}
-	input,select
-	{
+	input,select {
 		margin:2%;
 	}
-	header
-	{
+	header {
 		text-align: center;
 		margin: 2%;
 		margin-left: 15%;
 		margin-bottom: 3.99%;
 	}
-	h1
-	{
+	h1 {
 		color: white;
 		text-shadow: 2px 0 2px blue;
 	}
-	#txt
-	{
+	#txt {
 		font-size: 1.2em;
 		color: white;
 		text-shadow: 2px 0 2px blue;
-		
 	}
-	button
-	{
+	button {
 		position: absolute;
 		top: 10%;
 		left: 8%;
@@ -114,6 +90,5 @@
 		border: 2px rgb(124,112,255) solid;
 		border-radius: 3px 3px 12px 3px;
 		box-shadow: 0 1.88px 0.99px 0.28px black;
-
 	}
 }	
